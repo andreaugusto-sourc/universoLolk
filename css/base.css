@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    color: #ffff;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    font-family: 'Gideon Roman', cursive;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+h1{
+    letter-spacing: 2px;
+    font-family: 'Luxurious Roman', cursive;
+    padding: 0.4rem 0;
+    text-align: center;
+    font-size: 1.9rem;
+}
+h1:hover{
+    border-radius: 10px;
+    transition: 1s;
+    background-color: #ffff;
+    color: #000000;
+}
+.container{
+    padding: 2rem 0rem;
+    margin: 0 auto;
+    width: 1024px;
+    max-width: 80%;
+}
+/* FORMS, INPUTS E LABELS */
+input::placeholder{
+    font-size: 1.1rem;
+    font-family: 'Gideon Roman', cursive;
+}
+.form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 54.02vw;
+}
+.form label{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+}
+.form input, select{
+    height: 30px;
+}

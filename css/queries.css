@@ -1,0 +1,92 @@
+@media (max-width:900px) {
+    body{
+        font-size: 55%;
+    }
+
+    button {
+        display: block;
+        
+    }
+    #menu {
+        margin: 0;
+        border-bottom: #5047478f 2px solid;
+        position: absolute;
+        display: none;
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        z-index: 0;
+        text-align: center;
+        justify-content: space-between;
+        
+
+    }
+    #menu li{
+        width: 75%;
+       
+    }
+
+    nav.active #menu {
+        display: block;
+        flex-direction: column;
+        background-color: #222;
+
+
+    }
+
+    nav{
+        justify-content: space-between !important;
+    }
+
+    
+}
+@media (max-width:768px) {
+    body{
+        font-size: 50%;
+    }
+    
+}
+@media (max-width:650px) {
+    body{
+        font-size: 45%;
+    }
+    .container{
+        max-width: 95%;
+    }
+
+    
+}
+
+@media (max-width:520px) {
+    body{
+        font-size: 40%;
+    }
+    footer div{
+        flex-direction: column;
+
+    }
+    footer div a {
+        margin: 0.5rem !important;
+    }
+    #icons-footer{
+        flex-direction: row;
+    }
+    
+}
+
+@media (max-width:360px) {
+    #menu li{
+        width: 130px !important;
+        font-size: 1.2rem;
+       
+    }
+
+
+    
+}
+
+@media (max-width:300px) {
+    .person img{
+        width: 220px !important;
+    }
+}

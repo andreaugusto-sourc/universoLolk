@@ -1,0 +1,134 @@
+/* PARTE DO HEADER */
+header{
+    border-bottom: #5047478f 2px solid;
+    
+    
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav img{
+    margin: 0.5rem 0;
+    border-radius: 100%;
+    width: 7.5vw;
+    min-width: 70px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;    
+    
+}
+nav ul li{
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    margin: 0rem 0.8rem;
+
+}
+nav ul li:hover{
+    transition: 1s;
+    background-color: #ffff;
+    color: #000000;
+
+}
+nav input{
+    height: 7vh;
+    width: 21vw;
+}
+/* HAMBURGUER */
+button {
+    background-color: #222;
+    display: none;
+    flex-direction: column;
+    border: none;
+    height: 40px;
+    width: 42px;
+
+}
+
+.bar {
+    margin: 8px 0px;
+    position: relative;
+    height: 5px;
+    width: 40px;
+    display: block;
+    background-color: #ffff;
+
+    transform-origin: center;
+    transition: .2s;
+
+}
+
+button:hover .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-9px, 9px);
+
+}
+
+button:hover .bar:nth-child(2) {
+    opacity: 0;
+
+}
+
+button:hover .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-9px, -9px);
+}
+
+/* CAIXA DOS PERSONAGENS */
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.person{
+    cursor: pointer;
+    border: 2px solid #5047478f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem 0;
+    
+}
+.person:hover{
+    border: 2px solid #000000;
+
+}
+.person img{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+}
+.person a{
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+}
+/* PARTE DO FOOTER */
+footer{
+    border-top: #5047478f 2px solid;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer div a{
+    padding: 0.5rem;
+    margin: 1rem;
+}
+footer div a:hover{
+    transition: 1s;
+    background-color: #ffff;
+    color: #000000;
+    
+}
+
+
