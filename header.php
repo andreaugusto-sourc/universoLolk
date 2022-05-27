@@ -15,11 +15,11 @@
 <img src="images/catlolk2.jpeg" alt="logo Lolk"> 
 
 <ul id="menu">
-    <li>Personagens</li>
-    <li>Quadrinhos</li>
-    <li>Desenhos</li>
-    <li>Mundos</li>
-    <li>Contos</li>
+    <a href="index.php"><li>Personagens</li></a>
+    <a href=""><li>Quadrinhos</li></a>
+    <a href=""><li>Desenhos</li></a>
+    <a href=""><li>Mundos</li></a>
+    <a href=""><li>Contos</li></a>
 </ul>
 
 <button>

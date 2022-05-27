@@ -12,6 +12,7 @@ $imgPerson = uploadImagem('imgPerson');
 
 $histPerson = $_POST['histPerson'];
 
+#$idMundo = $_POST['idMundo'];
 $resultado = adicionarPerson($conexao,$nomePerson,$mundoPerson,$imgPerson,$histPerson);
 
 if ($resultado) {

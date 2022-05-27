@@ -6,10 +6,10 @@
 
 <div>
 
-    <a href="">Sobre</a>
+    <a href="sobre.php">Sobre</a>
     <a href="">Contato </a>
     <a href="">Serviços </a>
-    <a href="">Administração </a>
+    <a href="admin.php">Administração </a>
 
 </div>
 

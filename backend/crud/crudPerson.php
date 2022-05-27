@@ -15,6 +15,20 @@ function exibirPersons($conexao) {
     $resultado = mysqli_query($conexao,$comando);
     return $resultado;
 }
+function exibirPerson ($conexao,$idPerson) {
+
+    $comando = "SELECT * FROM persons where idPerson = '$idPerson'";
+
+    $resultado = mysqli_query($conexao,$comando);
+    return $resultado;
+}
+function deletarPerson ($conexao,$idPerson) {
+
+    $comando = "DELETE FROM persons where idPerson = '$idPerson'";
+
+    $resultado = mysqli_query($conexao,$comando);
+    return $resultado;
+}
 
 
 ?>

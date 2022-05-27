@@ -53,3 +53,13 @@ input::placeholder{
 .form input, select{
     height: 30px;
 }
+/* PAGINA DE ADMIN */
+#caixa-funcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#caixa-funcoes a{
+    font-size: 1.6rem;
+}
