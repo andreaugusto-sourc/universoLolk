@@ -11,8 +11,8 @@ $resultado = exibirPersons($conexao);
 <div class="container">
 
 <aside id="caixa-funcoes">
-    <a href="cadastroPersons.php"><ion-icon name="add-circle"></ion-icon> Personagem</a>
-    <a href="cadastroMundos.php"><ion-icon name="add-circle"></ion-icon> Mundo</a>
+    <a href="cadastro.php?modo=persons"><ion-icon name="add-circle"></ion-icon> Personagem</a>
+    <a href="cadastro.php?modo=mundos"><ion-icon name="add-circle"></ion-icon> Mundo</a>
     
 </aside>
 
