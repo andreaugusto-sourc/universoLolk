@@ -1,9 +1,8 @@
 <?php
 
+function adicionarPerson($conexao,$nomePerson,$imgPerson,$histPerson,$idMundo) {
 
-function adicionarPerson($conexao,$nomePerson,$mundoPerson,$imgPerson,$histPerson) {
-
-    $comando = "INSERT INTO persons (nomePerson,mundoPerson,imgPerson,histPerson) values ('$nomePerson','$mundoPerson','$imgPerson','$histPerson')";
+    $comando = "INSERT INTO persons (nomePerson,imgPerson,histPerson,idMundo) values ('$nomePerson','$imgPerson','$histPerson','$idMundo')";
 
     $resultado = mysqli_query($conexao,$comando);
     return $resultado;

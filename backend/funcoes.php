@@ -1,7 +1,7 @@
 <?php
 
 function conectar() {
-    $conexao = mysqli_connect("localhost","root","","test");
+    $conexao = mysqli_connect("localhost","root","","universoLolk");
     return $conexao;
 }
 

@@ -20,7 +20,7 @@ $resultado = exibirPersons($conexao);
     <div class="person">
         <img src="images/<?= $linha['imgPerson'] ?>">
         <a> <?= $linha['nomePerson']?></a>
-        <a> <?= $linha['mundoPerson']?></a>
+        
     </div>
 
 <?php endwhile ?>

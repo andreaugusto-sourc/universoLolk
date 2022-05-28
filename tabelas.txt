@@ -9,8 +9,9 @@ create table mundos(
 create table persons(
     idPerson integer auto_increment not null,
     nomePerson varchar(60) not null,
-    mundoPerson varchar(50) null,
     imgPerson blob null,
     histPerson text null,
-    primary key(idPerso)
+    idMundo integer,
+    CONSTRAINT fk_mundoPerson FOREIGN KEY (idMundo) REFERENCES mundos (idMundo),
+    primary key(idPerson)
 );

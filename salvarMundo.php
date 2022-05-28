@@ -4,15 +4,11 @@ require_once 'backend/backend.php';
 
 $conexao = conectar();
 
-$nomePerson = $_POST['nomePerson'];
+$nomeMundo = $_POST['nomeMundo'];
 
-$imgPerson = uploadImagem('imgPerson');
+$descriMundo = $_POST['descriMundo'];
 
-$histPerson = $_POST['histPerson'];
-
-$idMundo = preg_replace("/[A-Za-z\-]+/","", $_POST['idMundo']);
-
-$resultado = adicionarPerson($conexao,$nomePerson,$imgPerson,$histPerson,$idMundo);
+$resultado = adicionarMundo($conexao,$nomeMundo,$descriMundo);
 
 if ($resultado) {
     echo "Sucesso na inserção";
@@ -22,5 +18,8 @@ if ($resultado) {
     echo "Sem sucesso na inserção";
     
 }
+
+
+
 
 ?>
